@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset=“utf-8”>
-	<title>Sarah Braddock</title>
+	<!--<title>Sarah Braddock</title> -->
 <meta charset="utf-8">
 <h1>Sarah Braddock</h1>
 </head>

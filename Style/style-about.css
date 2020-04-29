@@ -1,0 +1,171 @@
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 3.3em;
+}
+
+p {
+
+font-family:'Montserrat', sans-serif;
+}
+
+/* Demo Specific Styles */
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1em 0;
+  font-family:'Montserrat', sans-serif;
+  background-color: black;
+}
+
+.container {
+   width: 960px;
+   display: grid;
+   grid-template-areas: "header header header"
+                        "logo logo logo"
+			"work work work"
+                        "footer footer footer";
+}
+
+.container > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+   grid-area: header;
+   color: white;
+   width: 960px;
+}
+
+header {
+   background: black;
+   text-align: center;
+   margin-bottom: 100px;
+   text-decoration: underline overline;
+   width: 960px;
+}
+
+header p {
+display: inline;
+font-size: 18px;
+margin: 78.5px;
+}
+
+
+
+/* link styles */
+a:link, a:visited 
+{ color: white; text-decoration: underline overline;
+}
+
+a:focus, a:hover, a:active 
+{ color: #59090A; text-decoration: underline overline;
+}
+
+logo {
+    margin-top: -100px;
+	margin-bottom: -5px;
+	align-content: center;
+	width: 960px;
+}
+
+logo img {
+	width: 960px;
+}
+
+.photos img {
+ width: 40%;
+ height: auto;
+}
+
+.cell-4 {
+grid-area: work;
+color: white;
+}
+
+.cell-4 p {
+margin-bottom: 10px;
+}
+
+.cell-4  h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 4em;
+text-align: center;
+text-decoration-line: line-through;
+text-decoration-color: black;
+}
+
+.cell-4  h2 {
+font-family: 'Bebas Neue', cursive;
+font-size: 33px;
+text-align: center;
+}
+
+
+.cell-4 h3 {
+	text-align: center;
+}
+.cell-4 p {
+	font-size: 12px;
+	padding: 5px;
+	line-height: 20px;
+}
+
+.cell-4 h4 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	word-spacing: 3px;
+	letter-spacing: 0.5px;
+	text-decoration-line:underline;
+	text-decoration-color: #59090A;
+}
+
+.cell-4 ul {
+	list-style: none;
+}
+
+.cell-4 ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #59090A; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.contact {
+	color: white;
+	background-color: #59090A;
+	border:none;
+   	text-align: left;
+	padding: 5px;
+	margin-top: 173px;
+	height: 250px;
+	padding-left: 10px;
+	width: 960px;
+}
+
+.contact p {
+font-size: 0.5em;
+margin-left: 19px;
+line-height: 2px;
+}
+
+.contact h1 {
+	margin-bottom: -1px;
+	margin-top: 90px;
+	margin-left: 20px;
+	font-size: 40px;
+	text-align: left;
+	border: none;
+	text-decoration: none;
+	
+	}
+
+
+@media (max-width: 960px){
+}
+
+
+

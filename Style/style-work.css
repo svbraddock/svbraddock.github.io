@@ -1,0 +1,158 @@
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 3.3em;
+}
+
+p {
+
+font-family:'Montserrat', sans-serif;
+}
+
+/* Demo Specific Styles */
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1em 0;
+  font-family:'Montserrat', sans-serif;
+  background-color: black;
+}
+
+.container {
+   width: 960px;
+   display: grid;
+   grid-template-areas: "header header header"
+                        "logo logo logo"
+			"work work work"
+                        "footer footer footer";
+}
+
+.container > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+   grid-area: header;
+   color: white;
+   width: 960px;
+}
+
+header {
+   background: black;
+   text-align: center;
+   margin-bottom: 100px;
+   text-decoration: underline overline;
+   width: 960px;
+}
+
+header p {
+display: inline;
+font-size: 18px;
+margin: 78.5px;
+}
+
+
+
+/* link styles */
+a:link, a:visited 
+{ color: white; text-decoration: underline overline;
+}
+
+a:focus, a:hover, a:active 
+{ color: #59090A; text-decoration: underline overline;
+}
+
+logo {
+    margin-top: -100px;
+	margin-bottom: -5px;
+	align-content: center;
+	width: 960px;
+}
+
+logo img {
+	width: 960px;
+}
+
+.photos img {
+ width: 40%;
+ height: auto;
+}
+
+.cell-4 {
+grid-area: work;
+color: white;
+}
+
+.cell-4 p {
+margin-bottom: 10px;
+}
+
+.cell-4  h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 4em;
+text-align: center;
+text-decoration-line: line-through;
+text-decoration-color: black;
+}
+
+.cell-4  h2 {
+font-family: 'Bebas Neue', cursive;
+font-size: 33px;
+text-align: center;
+}
+
+
+.cell-4 h3 {
+	text-align: center;
+}
+.cell-4 p {
+	font-size: 12px;
+	padding: 5px;
+	line-height: 20px;
+}
+
+read more {
+	font-family: 'Bebas Neue', cursive;
+	height: 30px;
+	padding: 6px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	text-decoration: overline;
+}
+
+.contact {
+	color: white;
+	background-color: #59090A;
+	border:none;
+   	text-align: left;
+	padding: 5px;
+	margin-top: 173px;
+	height: 250px;
+	padding-left: 10px;
+	width: 960px;
+}
+
+.contact p {
+font-size: 0.5em;
+margin-left: 19px;
+line-height: 2px;
+}
+
+.contact h1 {
+	margin-bottom: -1px;
+	margin-top: 90px;
+	margin-left: 20px;
+	font-size: 40px;
+	text-align: left;
+	border: none;
+	text-decoration: none;
+	
+	}
+
+
+@media (max-width: 960px){
+}
+
+
+

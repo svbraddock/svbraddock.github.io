@@ -1,0 +1,196 @@
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 3.3em;
+}
+
+p {
+
+font-family:'Montserrat', sans-serif;
+}
+
+/* Demo Specific Styles */
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1em 0;
+  font-family:'Montserrat', sans-serif;
+  background-color: black;
+}
+
+.container {
+   width: 960px;
+   display: grid;
+   grid-template-areas: "header header header"
+                        "logo logo logo"
+			"work work work"
+                        "footer footer footer";
+}
+
+.container > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+   grid-area: header;
+   color: white;
+   width: 960px;
+}
+
+header {
+   background: black;
+   text-align: center;
+   margin-bottom: 100px;
+   text-decoration: underline overline;
+   width: 960px;
+}
+
+header p {
+display: inline;
+font-size: 18px;
+margin: 78.5px;
+}
+
+
+
+/* link styles */
+a:link, a:visited 
+{ color: white; text-decoration: underline overline;
+}
+
+a:focus, a:hover, a:active 
+{ color: #59090A; text-decoration: underline overline;
+}
+
+logo {
+    margin-top: -100px;
+	margin-bottom: -5px;
+	align-content: center;
+	width: 960px;
+}
+
+logo img {
+	width: 960px;
+}
+
+.photos img {
+ width: 40%;
+ height: auto;
+}
+
+.cell-4 {
+grid-area: work;
+color: white;
+}
+
+.cell-4 p {
+font-size: 20px;
+}
+
+.cell-4  h1 {
+font-family: 'Bebas Neue', cursive;
+font-size: 4em;
+text-align: center;
+text-decoration-line: line-through;
+text-decoration-color: black;
+}
+
+.cell-4  h2 {
+font-family: 'Bebas Neue', cursive;
+font-size: 33px;
+text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #59090A;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.contact {
+	color: white;
+	background-color: #59090A;
+	border:none;
+   	text-align: left;
+	padding: 5px;
+	margin-top: 173px;
+	height: 250px;
+	padding-left: 10px;
+	width: 960px;
+}
+
+.contact p {
+font-size: 0.5em;
+margin-left: 19px;
+line-height: 4px;
+}
+
+.contact h1 {
+	margin-bottom: -1px;
+	margin-top: 90px;
+	margin-left: 20px;
+	font-size: 40px;
+	text-align: left;
+	border: none;
+	text-decoration: none;
+	
+	}
+
+
+@media (max-width: 960px){
+}
+
+
+
+
